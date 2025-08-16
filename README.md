@@ -28,6 +28,7 @@ A documentação da API é gerada automaticamente pelo FastAPI e pode ser acessa
 http://localhost:8000/docs após iniciar o servidor.
 
 📌 Status do Projeto
+
 🚧 Em desenvolvimento
 
 ## 🛠️ Como Executar o Projeto
