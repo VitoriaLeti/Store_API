@@ -27,6 +27,9 @@ Os testes são escritos com **Pytest**, cobrindo tanto testes unitários quanto 
 A documentação da API é gerada automaticamente pelo FastAPI e pode ser acessada via Swagger UI:
 http://localhost:8000/docs após iniciar o servidor.
 
+📌 Status do Projeto
+🚧 Em desenvolvimento
+
 ## 🛠️ Como Executar o Projeto
 
 ```bash
@@ -35,8 +38,10 @@ git clone https://github.com/seu-usuario/Store_API.git
 cd Store_API
 
 # Rodar a aplicação
-uvicorn main:app --reload
+uvicorn store.main:app --reload
 
 # Rodar os testes
-pytest
+poetry run pytest
+
+
 
